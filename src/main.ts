@@ -55,8 +55,15 @@ async function run() {
     `${dirname(import.meta.url)}/{events,commands,api}/**/*.{ts,js}`
   );
 
-  const token = JSON.parse(await readFile("./token.json", "utf-8"));
-  await bot.login(token.token);
+
+  let token;
+
+  try {
+    token = JSON.parse(await readFile("./token.json", "utf-8")).token;
+  } catch (err) {
+    token = process.env.BOT_TOKEN;
+  }
+  await bot.login(token);
 
 
   // api: prepare server
