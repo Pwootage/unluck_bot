@@ -5,6 +5,7 @@
 package-lock.json
 yarn.lock
 token.json
+.DS_Store
 
 # folders
 build
