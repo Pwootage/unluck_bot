@@ -35,7 +35,7 @@ export const OSRSSkills = [
 
 export const OSRSActivities = [
     'League Points',
-    'Deadman', // this is a best guess
+    'Deadman Points',
     'Bounty Hunter - Hunter',
     'Bounty Hunter - Rogue',
     'Bounty Hunter(Legacy) - Hunter',
@@ -88,6 +88,7 @@ export const OSRSActivities = [
     'Phantom Muspah',
     'Sarachnis',
     'Scorpia',
+    'Scurrius',
     'Skotizo',
     'Spindel',
     'Tempoross',
