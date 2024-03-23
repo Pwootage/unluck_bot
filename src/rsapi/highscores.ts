@@ -51,6 +51,7 @@ export const OSRSActivities = [
     'PvP Arena - Rank',
     'Soul Wars Zeal',
     'Rifts closed',
+    'Colosseum Glory',
     'Abyssal Sire',
     'Alchemical Hydra',
     'Artio',
