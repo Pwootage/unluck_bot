@@ -54,6 +54,7 @@ export const OSRSActivities = [
     'Colosseum Glory',
     'Abyssal Sire',
     'Alchemical Hydra',
+    'Araxxor',
     'Artio',
     'Barrows Chests',
     'Bryophyta',
